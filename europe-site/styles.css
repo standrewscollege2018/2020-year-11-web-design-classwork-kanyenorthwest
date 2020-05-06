@@ -1,0 +1,52 @@
+/*My stylesheet*/
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-color: rgb(100, 140, 130);
+  color: rgb(200, 200, 130);
+}
+
+h1{
+  color: rgb(255, 255, 0);
+  font-family: Arial, Calibri, sans-serif;
+  margin: 35px 0 20px 0;
+}
+
+h2{
+  color: rgb(0, 255, 255);
+  font-family: Calibri, Arial, sans-serif;
+  margin: 35px 0 20px 0;
+}
+
+p{
+  font-family: Arial;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+
+a {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+
+a:hover {
+  text_decoration: underline;
+  text-decoration: bold;
+  color: rgb(150, 200, 200);
+}
+
+ul {
+  margin: 0 0 10px 30px;
+  font-family: Arial, sans-serif, Calibri
+  list-style-type: upper-roman;
+}
+
+li {
+  margin: 0 5px 10px 30px;
+  font-family: Arial, sans-serif, Calibri
+  list-style-type: upper-roman;
+}
