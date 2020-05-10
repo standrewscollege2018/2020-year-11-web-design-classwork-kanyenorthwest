@@ -1,8 +1,7 @@
 /*My stylesheet*/
 
 *{
-  padding: 0px;
-  margin: 0px;
+  margin-left: 15px;
 }
 
 body{
@@ -13,40 +12,75 @@ body{
 h1{
   color: rgb(255, 255, 0);
   font-family: Arial, Calibri, sans-serif;
-  margin: 35px 0 20px 0;
 }
 
 h2{
   color: rgb(0, 255, 255);
   font-family: Calibri, Arial, sans-serif;
-  margin: 35px 0 20px 0;
 }
 
 p{
   font-family: Arial;
-  margin-bottom: 20px;
-  line-height: 25px;
 }
 
 a {
-  color: rgb(255, 0, 0);
+  color: rgb(150, 200, 0);
   text-decoration: none;
 }
 
 a:hover {
-  text_decoration: underline;
+  text-decoration: underline;
   text-decoration: bold;
-  color: rgb(150, 200, 200);
+  color: rgb(150, 255, 0);
 }
 
 ul {
   margin: 0 0 10px 30px;
-  font-family: Arial, sans-serif, Calibri
+  font-family: Arial, sans-serif, Calibri;
   list-style-type: upper-roman;
 }
 
 li {
   margin: 0 5px 10px 30px;
-  font-family: Arial, sans-serif, Calibri
+  font-family: Arial, sans-serif, Calibri;
   list-style-type: upper-roman;
+}
+
+.banner-container {
+  display: grid;
+  grid-template-columns: repeat(2 1fr);
+  grid-column-gap: 20px;
+}
+
+.logo {
+  background-color: rgb(100, 140, 130);
+  font-size: 50px;
+}
+
+.navbar {
+  background-color: rgb(100, 140, 130);
+  padding: 20px;
+  text-align: left;
+}
+
+.content-container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+}
+
+.picture-card {
+  border: 1px solid rgb(5, 5, 5);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.picture-card > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.picture-card > p {
+  margin-left: 10px;
 }
