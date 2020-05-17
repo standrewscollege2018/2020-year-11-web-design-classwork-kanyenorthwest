@@ -17,6 +17,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   grid-column-gap: 20px;
+  background-color: pink;
 }
 
 .card {
@@ -32,4 +33,18 @@
 
 .card > p {
   margin-left: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-column-gap: 0px;
+    background-color: white;
+  }
+
+  .card {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
 }

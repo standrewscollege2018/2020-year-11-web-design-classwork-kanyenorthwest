@@ -1,0 +1,151 @@
+* {
+}
+
+body {
+  background-color: #226096;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+h1{
+  color: rgb(0, 17, 102);
+  font-family: Calibri;
+  font-size: 20px;
+}
+
+#banner-stac {
+  width: 100%;
+}
+
+h2{
+  color: rgb(0, 153, 230);
+  font-family: Calibri, Arial, sans-serif;
+  font-style: oblique;
+}
+
+p{
+  font-family: Calibri;
+}
+
+a {
+  color: rgb(0, 128, 255);
+  text-decoration: none;
+  font-family: Calibri;
+}
+
+a #trailer-link {
+  height: auto;
+  width: 50%;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration: bold;
+  color: rgb(0, 77, 230);
+  font-family: Calibri
+}
+
+ul {
+  margin: 0 0 10px 30px;
+  font-family: Calibri, sans-serif, Calibri;
+  list-style-type: upper-roman;
+}
+
+ol {
+  font-family: Calibri
+}
+
+li {
+  margin: 0 5px 10px 30px;
+  font-family: Arial, sans-serif, Calibri;
+  list-style-type: circle;
+  font-style: oblique;
+}
+
+.banner-container {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: rgb(255, 255, 255);
+}
+
+.logo {
+  background-color: rgb(255, 255, 255);
+  width: auto;
+  height: auto;
+}
+
+.iframe {
+  height: 45%;
+  width: 55%;
+  max-width: 50%;
+  max-height: 50%;
+  background-color: rgb(255, 255, 255);
+}
+
+.embedded {
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+  padding: 0.1%;
+  padding-bottom: 2%;
+  text-align: center;
+  height: auto;
+  width: auto;
+  overflow: hidden;
+}
+
+.content-container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(900px, 3fr));
+  grid-column-gap: 50px;
+  background-color: rgb(255, 255, 255);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+
+.card > img {
+  height: 10%;
+  width: 50%;
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.footer {
+  background-color: rgb(178, 190, 181);
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.footer > img {
+  background-color: rgb(178, 190, 181);
+}
+
+@media only screen and (max-width: 1500px) {
+  .body {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+  }
+  }
+}
